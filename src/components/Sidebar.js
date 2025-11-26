@@ -62,7 +62,7 @@ const Sidebar = () => {
             textShadow: "0 0 10px rgba(59,130,246,0.5)",
           }}
         >
-          Lending Management System
+          Lending Management
         </Typography>
       </Box>
 
