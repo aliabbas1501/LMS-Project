@@ -7,7 +7,6 @@ import {
 import { Edit, Delete } from "@mui/icons-material";
 
 const DataTable = ({ data = [], columns, onDelete, onEdit, title }) => {
-   const [itemToDelete, setItemToDelete] = useState(null);
   const [page, setPage] = useState(1);
   const rowsPerPage = 4;
   const [editData, setEditData] = useState(null);

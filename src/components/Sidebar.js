@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import {
   Drawer,
   List,
@@ -17,7 +17,6 @@ import LogoutIcon from "@mui/icons-material/Logout";
 
 const Sidebar = () => {
   const location = useLocation();
-  const navigate = useNavigate(); // ✅ for logout redirect
 
   const menuItems = [
     { text: "Dashboard", icon: <DashboardIcon />, path: "/dashboard" },
